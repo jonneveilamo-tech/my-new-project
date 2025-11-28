@@ -22,11 +22,11 @@ Personal motivation: I live close to a large forest that burned in 2023. The fir
 Users: hikers, campers, farmers, drone hobbyists, rural residents.  
 Non-tech users only need to press one big “Send photo” button.
 
-![Wildfire Smoke Detection Example](smoke_plumes.jpg)  
-*Example of early wildfire smoke plumes (August Complex and Zogg Fire, 2020). This is what the app would analyze from a user photo. (Public Domain, U.S. Government work)*
+![Heavy Smoke from Wildfires over Alaska](https://upload.wikimedia.org/wikipedia/commons/2/2f/Heavy_smoke_from_several_wildfires_over_Alaska%2C_west_of_Fairbanks%2C_Alaska%2C_USA_-_July_8th%2C_2019_%2848240052416%29.jpg)  
+*Example of early wildfire smoke plumes over Alaskan forests (July 8th, 2019). This is what the app would analyze from a user photo. (Public Domain, NASA/NOAA)*
 
-![Forest Fire Close-Up](forest_fire_closeup.jpg)  
-*Close-up of forest fire with visible smoke – ideal for AI training data. (CC BY-SA 4.0)*
+![Close-Up of Forest Fire](https://upload.wikimedia.org/wikipedia/commons/2/2c/Photography_of_forest_fire.jpg)  
+*Close-up of forest fire with visible smoke and flames – ideal for AI training data. (CC BY-SA 4.0)*
 
 ## Data sources and AI methods
 - Training data:
@@ -59,7 +59,7 @@ Needed help: wildfire domain experts, mobile developers, contacts at fire brigad
 - Open wildfire imagery: HPWREN archive (University of California San Diego)
 - Demo space: [Early Forest Fire Detection by earthtoolsmaker](https://huggingface.co/spaces/earthtoolsmaker/forest-fire-pyronear) (Open Source)
 - Images: 
-  - [Parts of the August Complex and Zogg Fire peeking through the smoke - September 29th, 2020](https://commons.wikimedia.org/wiki/File:Parts_of_the_August_Complex_and_Zogg_Fire_peeking_through_the_smoke_-_September_29th,_2020_(50401114186).jpg) (Public Domain)
-  - [Photography of forest fire](https://commons.wikimedia.org/wiki/File:Photography_of_forest_fire.jpg) (CC BY-SA 4.0)
+  - [Heavy smoke from several wildfires over Alaska, west of Fairbanks, Alaska, USA - July 8th, 2019](https://commons.wikimedia.org/wiki/File:Heavy_smoke_from_several_wildfires_over_Alaska,_west_of_Fairbanks,_Alaska,_USA_-_July_8th,_2019_(48240052416).jpg) (Public Domain, NASA/NOAA)
+  - [Photography of forest fire](https://commons.wikimedia.org/wiki/File:Photography_of_forest_fire.jpg) (CC BY-SA 4.0 by User:Madereu)
 
 Building AI course project – University of Helsinki & Reaktor 2025
