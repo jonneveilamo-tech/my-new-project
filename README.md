@@ -22,11 +22,11 @@ Personal motivation: I live close to a large forest that burned in 2023. The fir
 Users: hikers, campers, farmers, drone hobbyists, rural residents.  
 Non-tech users only need to press one big “Send photo” button.
 
-![Wildfire Smoke Detection Example](https://upload.wikimedia.org/wikipedia/commons/8/8e/Parts_of_the_August_Complex_and_Zogg_Fire_peeking_through_the_smoke_-_September_29th%2C_2020_%2850401114186%29.jpg)  
-*Example of early wildfire smoke plumes (August Complex and Zogg Fire, 2020). This is what the app would analyze from a user photo.*
+![Wildfire Smoke Detection Example](smoke_plumes.jpg)  
+*Example of early wildfire smoke plumes (August Complex and Zogg Fire, 2020). This is what the app would analyze from a user photo. (Public Domain, U.S. Government work)*
 
-![Forest Fire Close-Up](https://upload.wikimedia.org/wikipedia/commons/2/2c/Photography_of_forest_fire.jpg)  
-*Close-up of forest fire with visible smoke – ideal for AI training data (CC BY-SA 4.0).*
+![Forest Fire Close-Up](forest_fire_closeup.jpg)  
+*Close-up of forest fire with visible smoke – ideal for AI training data. (CC BY-SA 4.0)*
 
 ## Data sources and AI methods
 - Training data:
@@ -35,6 +35,7 @@ Non-tech users only need to press one big “Send photo” button.
 - Model: lightweight CNN (MobileNetV3 or EfficientNet-B0) → runs fast even on cheap cloud instances and can later be exported to phones for offline use.
 - Bonus: add geolocation + time-of-day + wind data from public weather APIs to reduce false positives.
 
+Possible small demo (try it live!): [Forest Fire Detection Demo on Hugging Face](https://huggingface.co/spaces/earthtoolsmaker/forest-fire-pyronear) – Upload an image to see fire/smoke analysis in action.
 
 ## Challenges
 - False positives (fog, steam, dust, barbecue smoke)
@@ -56,9 +57,9 @@ Needed help: wildfire domain experts, mobile developers, contacts at fire brigad
 - Inspiration from the SmokeSense project (NASA) and the PanoAI camera system
 - Base model architecture and training tricks: Google’s “EfficientDet” paper and Teachable Machine export examples
 - Open wildfire imagery: HPWREN archive (University of California San Diego)
-- Demo space: [ViT-Forest-Fire-Detection by EdoWhite](https://huggingface.co/spaces/EdoWhite/ViT-Forest-Fire-Detection) (MIT License)
+- Demo space: [Early Forest Fire Detection by earthtoolsmaker](https://huggingface.co/spaces/earthtoolsmaker/forest-fire-pyronear) (Open Source)
 - Images: 
-  - [Parts of the August Complex and Zogg Fire peeking through the smoke - September 29th, 2020](https://commons.wikimedia.org/wiki/File:Parts_of_the_August_Complex_and_Zogg_Fire_peeking_through_the_smoke_-_September_29th,_2020_(50401114186).jpg) (Public Domain, U.S. Government work)
+  - [Parts of the August Complex and Zogg Fire peeking through the smoke - September 29th, 2020](https://commons.wikimedia.org/wiki/File:Parts_of_the_August_Complex_and_Zogg_Fire_peeking_through_the_smoke_-_September_29th,_2020_(50401114186).jpg) (Public Domain)
   - [Photography of forest fire](https://commons.wikimedia.org/wiki/File:Photography_of_forest_fire.jpg) (CC BY-SA 4.0)
 
 Building AI course project – University of Helsinki & Reaktor 2025
